@@ -1,8 +1,9 @@
-mport {BrowserRouter,Routes,Route} from 'react-router-dom'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Error from './routes/Error'
 import Home from './routes/Home'
 import Cliente from './routes/Cliente'
-
+import Nav from './components/Nav'
+import Footer from './components/Footer'
 function App() {
 
 
@@ -24,6 +25,7 @@ function App() {
 
       </Routes>
     </main>
+    <Footer/>
      
     </BrowserRouter>
   )
