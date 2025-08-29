@@ -10,6 +10,7 @@ function App() {
   return (
     // HABILITA A NAVEGAÇÃO POR ROTAS NA APLICAÇÃO
     <BrowserRouter>
+    <Nav/>
     <main>
       {/* Gerencia a exibição dos componentes com base na url */}
       <Routes>
