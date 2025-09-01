@@ -1,4 +1,4 @@
-import React from 'react'
+import Imagem from '../assets/logo.png'
 
 
 const Home = () => {
